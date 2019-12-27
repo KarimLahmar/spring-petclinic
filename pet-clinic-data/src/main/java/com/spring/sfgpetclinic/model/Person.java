@@ -3,7 +3,7 @@ package com.spring.sfgpetclinic.model;
 public class Person extends BaseEntity {
 	
 	private String firstName;
-	private String lastnName;
+	private String lastName;
 
 	public String getFirstName() {
 		return firstName;
@@ -13,12 +13,12 @@ public class Person extends BaseEntity {
 		this.firstName = firstName;
 	}
 
-	public String getLastnName() {
-		return lastnName;
+	public String getLastName() {
+		return lastName;
 	}
 
-	public void setLastnName(String lastnName) {
-		this.lastnName = lastnName;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 
 }

@@ -17,4 +17,5 @@ import lombok.Setter;
 public class BaseEntity implements Serializable {
 
 	private Long id;
+	
 }
